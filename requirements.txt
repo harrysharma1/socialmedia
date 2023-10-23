@@ -2,3 +2,5 @@ typer
 rich
 shellingham
 pytest
+beautifulsoup4
+requests
