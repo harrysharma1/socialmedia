@@ -14,6 +14,8 @@ class SocialMedia():
         match response_status_code:
             case 404:
                 print("Page not found")
+            case 403:
+                print("Forbidden access to page")
             case _:
                 print("Undefined HTTP error")
 

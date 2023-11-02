@@ -1,5 +1,5 @@
 import pytest
-from scraper.instagram import Instagram
+from ..scraper.instagram import Instagram
 
 class TestInstagram:
     
